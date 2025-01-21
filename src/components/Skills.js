@@ -42,6 +42,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
+      <br />
       <Carousel
                 responsive={responsive}
                 className="skill-slider"
@@ -67,7 +68,7 @@ export const Skills = () => {
                 </div>
               </Carousel>
 
-      <img src={colorSharp} alt="" className='background-image-left' />
+      {/* <img src={colorSharp} alt="" className='background-image-left' /> */}
     </section>
   )
 }

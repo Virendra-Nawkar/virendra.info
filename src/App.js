@@ -14,6 +14,7 @@ import { Footer2 } from './Footer2';
 function App() {
   return (
     <div className="App">
+      {/* {alert("Use Desktop for better experience")} */}
       <NavBar />
       <Banner/>
       <Skills/>
@@ -21,7 +22,7 @@ function App() {
       <Contact/>
       {/* <Newsletter/> */}
       {/* <Footer/> */}
-      <Footer2/>
+      {/* <Footer2/> */}
     </div>
   );
 }

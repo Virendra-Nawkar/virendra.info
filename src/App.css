@@ -364,8 +364,10 @@ nav.navbar.scrolled {
 .banner button:hover svg {
   margin-left: 25px;
 }
+
+/* ANIMATION OF MAIN IMG */
 .banner img {
-  animation: updown 3s linear infinite;
+  /* animation: updown 3s linear infinite; */
 }
 @keyframes updown {
     0% {
@@ -516,6 +518,7 @@ nav.navbar.scrolled {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  object-fit: contain
 }
 .proj-imgbx::before {
   content: "";
@@ -568,7 +571,7 @@ nav.navbar.scrolled {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 50px 0;
 }
 .contact img {
   width: 92%;
@@ -707,7 +710,14 @@ nav.navbar.scrolled {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 60%;
+  height: 250px;
+}
+
+.Footerheading{
+  font-weight: bold;
+  background-color: red;
+  width: 200px;
 }
 .footer p {
   font-weight: 400;

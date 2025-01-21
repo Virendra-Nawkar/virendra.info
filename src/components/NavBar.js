@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import NavIcon1 from '../assets/img/nav-icon1.svg';
 import NavIcon2 from '../assets/img/nav-icon2.svg';
 import NavIcon3 from '../assets/img/nav-icon3.svg';
+import Git from "../assets/img/github.svg"
 
 
 export const NavBar = () => {
@@ -91,19 +92,32 @@ export const NavBar = () => {
           </div>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a target='_blank' href="https://www.linkedin.com/in/virendra-nawkar-7ab464246/">
                 <img src={NavIcon1} alt="" />
               </a>
-              <a href="#">
+              <a target='_blank' href="https://www.facebook.com/virendra9623/">
                 <img src={NavIcon2} alt="" />
               </a>
-              <a href="#">
+
+              {/* <a href="#">
+                <img src={Git}   alt="" />
+              </a> */}
+
+
+              <a target='_blank' href="https://www.instagram.com/virendra_nawkar/">
                 <img src={NavIcon3} alt="" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log('Connect')}>
+            {/* <button href="#connect" className="vvd">
+              <span >Let's Connect</span>
+            </button> */}
+            <button
+              onClick={() => document.getElementById("connect").scrollIntoView({ behavior: "smooth" })}
+              className="vvd"
+            >
               <span>Let's Connect</span>
             </button>
+
           </span>
         </Navbar.Collapse>
       </Container>
