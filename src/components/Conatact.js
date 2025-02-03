@@ -10,7 +10,7 @@ export const Contact = () => {
         message: ''
     }
     const [formDetails, setFormDetails] = useState(formInitialDetails);
-    const [buttonText, setButtonText] = useState('SEND')
+    // const [buttonText, setButtonText] = useState('SEND')
     const [status, setstatus] = useState({})
 
     const onFormUpdate = (category, value) => {
@@ -20,9 +20,7 @@ export const Contact = () => {
         })
     }
 
-    const handleSubmit = () => {
-
-    }
+    
 
     // code starrts here
     const [result, setResult] = useState("Send");

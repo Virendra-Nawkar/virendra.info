@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import meter1 from '../assets/img/meter1.svg';
 import meter2 from '../assets/img/meter2.svg';
 import meter3 from '../assets/img/meter3.svg';
-import colorSharp from '../assets/img/color-sharp.png';
+// import colorSharp from '../assets/img/color-sharp.png';
 // import colors from '../assets/img/colors.png';
 // import colors1 from '../assets/img/colors1.png';
 // import colors2 from '../assets/img/colors2.png';

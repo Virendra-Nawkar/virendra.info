@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import Vir from "../assets/img/Vir.png";
-import Vir2 from "../assets/img/Picsart_25-01-22_19-20-45-711.png"
+// import Vir from "../assets/img/Vir.png";
+// import Vir2 from "../assets/img/Picsart_25-01-22_19-20-45-711.png"
 import { useState, useEffect } from "react";
 
 export const Banner = () => {
