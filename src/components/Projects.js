@@ -1,8 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/proj-port.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import protimg from "../assets/img/proj-port.png";
 import protchai from "../assets/img/get me cahi.jpeg";
 import protmanager from "../assets/img/passmanger.jpeg";

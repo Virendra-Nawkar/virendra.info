@@ -6,9 +6,9 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import {Contact} from './components/Conatact'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Newsletter } from './components/Newsletter';
-import { Footer } from './components/Footer';
-import { Footer2 } from './Footer2';
+// import { Newsletter } from './components/Newsletter';
+// import { Footer } from './components/Footer';
+// import { Footer2 } from './Footer2';
 
 
 function App() {
